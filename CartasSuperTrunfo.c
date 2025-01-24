@@ -25,7 +25,7 @@ int main() {
     scanf("%d", &populacao);
 
     printf("Digite a área dessa cidade: \n");
-    scanf("%2f", &area);
+    scanf("%f", &area);
 
     printf("Digite o PIB: \n");
     scanf(" %f", &PIB);
