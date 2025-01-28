@@ -7,38 +7,34 @@
 //Teste larissa
 
 int main() {
-    printf("Desafio Super Trunfo - Países\n");
-    char codigo[50];
-    char nome[50];
-    int populacao;
-    float area;
-    float PIB;
-    int pontosTuristicos;
+
+    printf("Desafio Super Trunfo - Países");
+
+    
+    char codigo[3];
+    char nome[20];
+    int populacao, pontosTuristicos;
+    float area, PIB;
 
     printf("Digite o código da cidade: \n");
     scanf("%s", &codigo);
 
-    printf("Digite o nome da cidade: \n");
+    printf("Digite o nome: \n");
     scanf("%s", &nome);
 
     printf("Digite a população: \n");
     scanf("%d", &populacao);
 
-    printf("Digite a área dessa cidade: \n");  
+    printf("Digite área: \n");
     scanf("%f", &area);
 
     printf("Digite o PIB: \n");
     scanf("%f", &PIB);
 
     printf("Digite o número de pontos turísticos: \n");
-    scanf("%d",&pontosTuristicos);
+    scanf("%d", &pontosTuristicos);
 
-    printf("Código da cidade: %s\n", codigo);
-    printf("Nome: %s\n", nome);
-    printf("População: %d\n", populacao);
-    printf("Área: %f\n", area);
-    printf("PIB: %f\n", PIB);
-    printf("Número de pontos turísticos: %d\n", pontosTuristicos);
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
