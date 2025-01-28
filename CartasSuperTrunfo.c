@@ -15,7 +15,10 @@ int main() {
     char nome[20];
     int populacao, pontosTuristicos;
     float area, PIB;
+    float densidadePopulacional;
+    float pibPercapita;
 
+    
     printf("Digite o código da cidade: \n");
     scanf("%s", &codigo);
 
